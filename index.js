@@ -50,7 +50,7 @@ client.on('message', message => {
         .catch(console.error);
         break;
       case 7:
-        message.channel.send(message.author.username + ' is contemplating the completies of life in the infinite cosmos')
+        message.channel.send(message.author.username + ' is contemplating the complexities of life in the infinite cosmos')
         .then(console.log('-'))
         .catch(console.error);
         break;
